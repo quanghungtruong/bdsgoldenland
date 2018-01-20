@@ -25,7 +25,7 @@
                         <div class="img-nhadat">
                             <?php for($j = 1; $j <= 6; $j++): ?>
                                 <?php if( ! empty(get_field('image_'. $j, $post_id))): ?>
-                                    <div class="col-md-4 diff-grid diff-one bor-bot wow bounceInDown bor-top" data-wow-duration="1.5s" data-wow-delay="0.1s">
+                                    <div class="col-md-2 diff-grid diff-one bor-bot wow bounceInDown bor-top" data-wow-duration="1.5s" data-wow-delay="0.1s">
                                         <div class="port-<?php echo $j; ?> effect-3">
                                             <div class="image-box">
                                                 <a class="fancybox" href="<?php echo get_field('image_'. $j, $post_id); ?>" data-fancybox-group="gallery" title="">

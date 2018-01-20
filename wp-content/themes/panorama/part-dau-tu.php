@@ -17,10 +17,10 @@
                     $show_fisrt = get_post_meta( $id, 'show_first', true);
                     $col_class = $show_fisrt == 1 ? 'col-lg-8' : 'col-lg-4';
             ?>
-            <div class="dt-content <?php echo $col_class; ?>">
-                <div class="img-duan">
+            <div class="dt-content <?php echo $col_class; ?> wow bounceInDown">
+                <div class="img-duan port-1 effect-3">
                     <a href="<?php echo $link; ?>">
-                        <img src="<?php echo $image['guid']; ?>" />
+                        <img class="img-responsive " src="<?php echo $image['guid']; ?>" />
                     </a>
                 </div>
                 <p class="color-paragraph justify">

@@ -473,9 +473,8 @@ color:#00aeef;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
-
-.diff-grid {
-    min-height: 265px;
+.diff-grids{
+    margin-bottom: 5px;
 }
 .hi-icon-effect-4 .hi-icon.icon1 {
     width: 65px;

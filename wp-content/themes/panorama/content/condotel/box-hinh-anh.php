@@ -15,9 +15,9 @@
                     </div>
                 </div>
             </div>
+            <?php echo $j == 3 ? '<div class="clear"></div>' : ''; ?>
                 <?php endif; ?>
             <?php endfor; ?>
-            <div class="clearfix"></div>
 
         </div>
     </div>
